@@ -3,8 +3,9 @@
 <!-- 
 	package: UnoBlockly
 	file toolbox.xml
-	version 0.1 (07-02-2022)
+	version 0.11 (09-04-2022)
 	author Antonio Dal Borgo <adalborgo@gmail.com>
+	modified by Toshiyuki Nakamura <meuse-robotics.com>
 -->
 
 <xml id="toolbox" style="display: none;">
@@ -250,7 +251,8 @@
             </value>
          </block>
 
-         <block type="ArduinoCodeData" />
+         <block type="arduino_highlow" /><!--09.04.2022-->
+	 <block type="ArduinoCodeData" />
          <block type="ArduinoCode" />
 		   <block type="Remark" />
          <block type="Remark_header" />
