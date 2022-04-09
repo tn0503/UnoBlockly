@@ -1,9 +1,10 @@
 /**
  * @package: UnoBlockly
  * @file extra.js
- * @version 0.1 (5-11-2021)
+ * @version 0.11 (09-04-2022)
  * @description Extra functions of Blockly.Blocks & Blockly.Arduino
  * @author Antonio Dal Borgo <adalborgo@gmail.com>
+ * @modified by Toshiyuki Nakamura <meuse-robotics.com>
  */
 
 'use strict';
@@ -204,3 +205,23 @@ Blockly.Arduino["text_from_number"] = function (block) {
 	let x = Blockly.Arduino.valueToCode(this, "DATA", Blockly.Arduino.ORDER_NONE);
 	return ['String(' + x + ').c_str()', Blockly.Arduino.ORDER_ATOMIC];
 };
+
+// 09.04.2022 added by Toshiyuki Nakamura
+Blockly.Blocks['arduino_highlow'] = {
+		init: function() {
+			this.setStyle("arduino_blocks");
+			
+    this.appendDummyInput()
+        .appendField(new Blockly.FieldDropdown([["HIGH", "HIGH"], ["LOW", "LOW"]]), 'BOOL')
+    this.setOutput(true, 'Boolean');
+    this.setTooltip('');
+		  }
+	
+  };
+Blockly.Arduino['arduino_highlow'] = function(block) {
+    // Boolean values HIGH and LOW.
+    var code = (this.getFieldValue('BOOL') == 'HIGH') ? 'HIGH' : 'LOW';
+    return [code, Blockly.Arduino.ORDER_ATOMIC];
+	
+};
+// 09.04.2022
