@@ -8,14 +8,14 @@ UnoBlockly はGoogle社のBlocklyをもとにしたビジュアルプログラ�
 
 本ソフトウェアは、何よりも初心者だけでなくArduinoを教えている先生方にも役立てていただけます。さらに、生成されたコードを活用して従来の言語でのプログラミングへの移行が容易になります。
 
-<p align="center"><img src="https://github.com/adalborgo/UnoBlockly/blob/beta4/images/example-block1.png" alt="Block" width="80%"/></p>
+<p align="center"><img src="https://github.com/adalborgo/UnoBlockly/blob/beta4/images/example-block1_jp.png" alt="Block" width="80%"/></p>
 
 相互に接続するビジュアルブロックを使用して、Arduinoコードを自動的に生成します。コードは便利なプレビューウィンドウで表示したり、グラフィックモードからテキストモードに切り替えて直接編集したりできます。
 
 Arduinoのコードは標準的な「ino」形式で編集、保存できますが、テキストモードでの変更内容はブロックモードに戻すと失われます。
 UnoBlocklyはUSBポートを介してArduinoボードと直接接続できます。コンパイルとボードへの書き込みが可能です。
 
-<p align="center"><img src="https://github.com/tn0503/UnoBlockly/blob/beta4/images/example-code1_jp.png" alt="Code" width="80%"/></p>
+<p align="center"><img src="https://github.com/tn0503/UnoBlockly/blob/beta4/images/example-code1.png" alt="Code" width="80%"/></p>
 
 シリアルモニターも搭載、データは「csv」形式で保存できます。
 
