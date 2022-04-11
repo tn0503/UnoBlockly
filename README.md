@@ -28,6 +28,7 @@ https://github.com/adalborgo/unoblockly
 **インストール**
 UnoBlocklyはWindowsアプリケーションです:
 - インストーラ: ([UnoBlocklySetup.exe](https://meuse-robotics.com/unoblockly/UnoBlocklySetup.exe))
+- 「WindowsによってPCが保護されました」と出たら「詳細情報」をクリックして「実行」
 - オリジナル版との違い：●Arduinoカテゴリに「HIGH/LOW」ブロックを追加　●論理カテゴリforループで減算（デクリメント）に対応
 
 **Examples**
