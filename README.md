@@ -8,7 +8,7 @@ UnoBlockly はGoogle社のBlocklyをもとにしたビジュアルプログラ�
 
 本ソフトウェアは、何よりも初心者だけでなくArduinoを教えている先生方にも役立てていただけます。さらに、生成されたコードを活用して従来の言語でのプログラミングへの移行が容易になります。
 
-<p align="center"><img src="https://github.com/adalborgo/UnoBlockly/blob/beta4/images/example-block1_jp.png" alt="Block" width="80%"/></p>
+<p align="center"><img src="https://github.com/tn0503/UnoBlockly/blob/beta4/images/example-block1_jp.png" alt="Block" width="80%"/></p>
 
 相互に接続するビジュアルブロックを使用して、Arduinoコードを自動的に生成します。コードは便利なプレビューウィンドウで表示したり、グラフィックモードからテキストモードに切り替えて直接編集したりできます。
 
