@@ -4,47 +4,31 @@
 
 <h1 align="center">UnoBlockly</h1>
 
-UnoBlockly is a visual programming environment, based on Google&#39;s Blockly, for programming Arduino boards and devices based on the Atmega328 microcontroller, such as Arduino UNO, Arduino Nano. In particular, some modules dedicated to Seeed Studio Grove Beginner Kit, Makeblock mBot, OttoDIY are available.
+UnoBlockly はGoogle社のBlocklyをもとにしたビジュアルプログラミング環境です。 Arduino UNO、Arduino Nano等のAtmega328マイコンを搭載したArduinoボードに対応しています。
 
-The software can be useful above all for beginners but also for teachers of Arduino courses, moreover, the possibility of being able to work at the same time even with the generated code, facilitates the transition to programming with traditional languages.
+本ソフトウェアは、何よりも初心者だけでなくArduinoを教えている先生方にも役立てていただけます。さらに、生成されたコードを活用して従来の言語でのプログラミングへの移行が容易になります。
 
 <p align="center"><img src="https://github.com/adalborgo/UnoBlockly/blob/beta4/images/example-block1.png" alt="Block" width="80%"/></p>
 
-The software uses visual blocks that connect to each other and automatically generates the Arduino code, which can be shown through a convenient preview window or edited directly by switching from graphics to text mode.
+相互に接続するビジュアルブロックを使用して、Arduinoコードを自動的に生成します。コードは便利なプレビューウィンドウで表示したり、グラフィックモードからテキストモードに切り替えて直接編集したりできます。
 
-The Arduino code can be edited and saved on files with the standard extension **.ino** , but any changes in &#39;text&#39; mode will be deleted by switching to &#39;block&#39; mode, if they have not been previously saved on file.
-UnoBlockly supports direct connection to the Arduino board via USB port, so the product code can be compiled and uploaded directly to the board.
+Arduinoのコードは標準的な「ino」形式で編集、保存できますが、テキストモードでの変更内容はブロックモードに戻すと失われます。
+UnoBlocklyはUSBポートを介してArduinoボードと直接接続できます。コンパイルとボードへの書き込みが可能です。
 
 <p align="center"><img src="https://github.com/adalborgo/UnoBlockly/blob/beta4/images/example-code1.png" alt="Code" width="80%"/></p>
 
-The software also integrates a simple monitor for communications with the serial port. The data read on the serial monitor can be saved in .csv format.
+シリアルモニターも搭載、データは「csv」形式で保存できます。
 
 <p align="center"><img src="https://github.com/adalborgo/UnoBlockly/blob/beta4/images/serial_monitor.png" alt="Code" width="66%"/></p>
 
-**The project**
+**プロジェクト**
+UnoBlocklyのオリジナルはAntonio Dal Borgo氏によるプロジェクトです。
+https://github.com/adalborgo/unoblockly
 
-This project has been inspired by **OttoBlockly** , of which he uses some pieces of code. Compared to OttoBlockly, however, it has some significant differences: while OttoBlockly inserts by default the instructions in the **loop ()** function, UnoBlockly inserts them in the **setup ()** function, an optional block is still available to insert the instructions inside the chosen function.
-
-UnoBlockly supports drag and drop and automatic opening by clicking on the program file (only if UnoBlockly is closed).
-
-Program files use the **.ubk** extension.
-
-UnoBlockly is especially aimed at beginners who use Arduino UNO, Arduino Nano with simple learning kits like the Seeed Studio Grove Beginner Kit or simple robots like mBot, OttoDIY (base), for this it has more limited resources than other similar software, however it uses updated versions (to 2021) of the packages on which it is based (Blockly, Electron, Bootstrap, SerialPort, etc.) while the most common open source software for Arduino based on Blockly use particularly dated versions.
-
-UnoBlockly is still under development and some features will be implemented in future versions.
-
-**Installation**
-
-UnoBlockly was developed for Windows 10 and can be found at this link:
-- for installation: ([UnoBlockly_x64-Install-beta0.4.7.exe](https://www.dibis.it/UnoBlockly/UnoBlockly_x64-Install-beta0.4.7.exe))
-- portable version: ([UnoBlockly_x64-beta0.4.7.zip](https://www.dibis.it/UnoBlockly/UnoBlockly_x64-beta0.4.7.zip))
-
-
-The software integrates the Arduino compiler and the necessary libraries, so once installed it is ready for use; only if the computer does not automatically recognize the USB port is it necessary to install the appropriate driver, in this case it is advisable to download it from the following link:
-
-**Multilingual version**
-
-At the moment UnoBlockly only supports English, Japanese and Italian languages, I hope soon to have the possibility to add other languages with the help of the international community. All the words used in the interfaces are localized and for each language a specific folder is reserved which contains all the files that need to be translated. Thanks to all those who want to contribute.
+**インストール**
+UnoBlocklyはWindowsアプリケーションです:
+- インストーラ: ([UnoBlocklySetup.exe](https://meuse-robotics.com/unoblockly/UnoBlocklySetup.exe))
+- オリジナル版との違い：●Arduinoカテゴリに「HIGH/LOW」ブロックを追加　●論理カテゴリforループで減算（デクリメント）に対応
 
 **Examples**
 
