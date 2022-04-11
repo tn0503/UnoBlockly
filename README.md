@@ -15,7 +15,7 @@ UnoBlockly はGoogle社のBlocklyをもとにしたビジュアルプログラ�
 Arduinoのコードは標準的な「ino」形式で編集、保存できますが、テキストモードでの変更内容はブロックモードに戻すと失われます。
 UnoBlocklyはUSBポートを介してArduinoボードと直接接続できます。コンパイルとボードへの書き込みが可能です。
 
-<p align="center"><img src="https://github.com/adalborgo/UnoBlockly/blob/beta4/images/example-code1.png" alt="Code" width="80%"/></p>
+<p align="center"><img src="https://github.com/tn0503/UnoBlockly/blob/beta4/images/example-code1_jp.png" alt="Code" width="80%"/></p>
 
 シリアルモニターも搭載、データは「csv」形式で保存できます。
 
